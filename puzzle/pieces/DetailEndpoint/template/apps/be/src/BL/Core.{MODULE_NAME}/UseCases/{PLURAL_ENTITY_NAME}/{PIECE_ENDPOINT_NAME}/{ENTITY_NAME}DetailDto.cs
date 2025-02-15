@@ -1,0 +1,20 @@
+using System.Text.Json;
+
+namespace Core.Admin.UseCases.Examples.Detail;
+
+public class ExampleDetailDto
+{
+    public required Guid Id { get; set; }
+    public required string Name { get; set; }
+    public string? Address { get; set; }
+    public string? Vat { get; set; }
+    public string? Vatin { get; set; }
+    public string? ContactName { get; set; }
+    public string? ContactEmail { get; set; }
+    public string? ContactPhone { get; set; }
+    public bool AccessSharedProducts { get; set; } = false;
+    public string? Note { get; set; }
+    
+    // Add complex DTOs
+    public MessageDto Message { get; set; }
+}

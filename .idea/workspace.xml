@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="527c1d38-4e5e-40b1-985c-b106389b2f3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.puzzle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Create/CatCreateMappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Create/CreateCatCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Create/CreateCatCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Create/CreateCatCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Create/CreateCatDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Delete/DeleteCatCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Delete/DeleteCatCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Delete/DeleteCatCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Detail/CatDetailDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Detail/CatDetailMappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Detail/GetCatDetailQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Cats/Detail/GetCatDetailQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Create/CreateDogCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Create/CreateDogCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Create/CreateDogCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Create/CreateDogDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Create/DogCreateMappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Delete/DeleteDogCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Delete/DeleteDogCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Delete/DeleteDogCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Detail/DogDetailDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Detail/DogDetailMappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Detail/GetDogDetailQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Backoffice/UseCases/Dogs/Detail/GetDogDetailQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/BL/Core.Common/Errors/ErrorCodes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/Core.Gateway/Controllers/V1/Backoffice/CatsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/Core.Gateway/Controllers/V1/Backoffice/DogsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/Context/CoreDataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/Context/ICoreDataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/Entities/Cat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/Entities/Dog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/Entities/Mouse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/EntityConfigurations/CatEntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/EntityConfigurations/DogEntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/be/src/DAL/Core.Data/EntityConfigurations/MouseEntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/common/custom/ExampleController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/common/custom/ExampleTextSearchProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/common/custom/ExampleValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/common/extra/conventions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/common/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CreateEndpoint/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CreateEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/Create{ENTITY_NAME}Command.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CreateEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/Create{ENTITY_NAME}CommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CreateEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/Create{ENTITY_NAME}Dto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CreateEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/{ENTITY_NAME}CreateMappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomCommandEndpoint/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomCommandEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{CUSTOM_ACTION_NAME}/{CUSTOM_ACTION_NAME}{ENTITY_NAME}Command.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomCommandEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{CUSTOM_ACTION_NAME}/{CUSTOM_ACTION_NAME}{ENTITY_NAME}CommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomCommandEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{CUSTOM_ACTION_NAME}/{CUSTOM_ACTION_NAME}{ENTITY_NAME}Dto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomCommandEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{CUSTOM_ACTION_NAME}/{CUSTOM_ACTION_NAME}{ENTITY_NAME}MappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomQueryEndpoint/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomQueryEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{CUSTOM_ACTION_NAME}/{CUSTOM_ACTION_FULL_NAME}MappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomQueryEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{CUSTOM_ACTION_NAME}/{CUSTOM_ACTION_FULL_NAME}Query.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/CustomQueryEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{CUSTOM_ACTION_NAME}/{CUSTOM_ACTION_FULL_NAME}QueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DeleteEndpoint/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DeleteEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/Delete{ENTITY_NAME}Command.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DeleteEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/Delete{ENTITY_NAME}CommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DetailEndpoint/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DetailEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/Get{ENTITY_NAME}DetailQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DetailEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/Get{ENTITY_NAME}DetailQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DetailEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/{ENTITY_NAME}DetailDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/DetailEndpoint/template/apps/be/src/BL/Core.{MODULE_NAME}/UseCases/{PLURAL_ENTITY_NAME}/{PIECE_ENDPOINT_NAME}/{ENTITY_NAME}DetailMappingExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Docs/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Docs/template/apps/be/docs/modules/{MODULE_NAME}/{PLURAL_ENTITY_NAME}/{PLURAL_ENTITY_NAME}.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Entity/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Entity/template/apps/be/src/DAL/Core.Data/Context/CoreDataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Entity/template/apps/be/src/DAL/Core.Data/Context/ICoreDataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Entity/template/apps/be/src/DAL/Core.Data/Entities/{ENTITY_NAME}.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Entity/template/apps/be/src/DAL/Core.Data/EntityConfigurations/{ENTITY_NAME}EntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Seed/setup.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Seed/template/apps/be/src/DAL/Core.Data/DataModuleInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Seed/template/apps/be/src/DAL/Core.Data/Seeds/Entities/{ENTITY_NAME}Seed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puzzle/pieces/Seed/template/apps/be/src/DAL/Core.Data/Seeds/SeedSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "twinity1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:twinity1/puzzle-example-project.git",
+    "accountId": "24a28c5c-173e-49d5-abda-03f4def54365"
+  }
+}]]></component>
+  <component name="GitlabMajeraCodeReviewSettings">
+    <option name="popularEmojiShortcuts">
+      <list />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/apps/be/src/DAL/Core.Data/Context/CoreDataContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/apps/be/src/DAL/Core.Data/Context/ICoreDataContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/apps/be/src/DAL/Core.Data/EntityConfigurations/CatEntityTypeConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/puzzle/common/custom/ExampleController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/puzzle/common/custom/ExampleTextSearchProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/puzzle/common/custom/ExampleValidator.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2t52GniDqyEbWEpuwjMRHBMnDqL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="527c1d38-4e5e-40b1-985c-b106389b2f3c" name="Changes" comment="" />
+      <created>1739627521865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739627521865</updated>
+      <workItem from="1739627522922" duration="1858000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
